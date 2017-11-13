@@ -231,7 +231,7 @@ nav a.active {
 
     .header ul{
         float:right;
-        overflow-y:hidden;
+        overflow:hidden;
     }
 
     .header li{
@@ -695,6 +695,10 @@ nav a.active {
         font-size: 1em;
     }
 
+    .grid{
+        padding-bottom:50px;
+    }
+
     .grid li{
         padding:0;
         margin-top: 1em;
@@ -711,7 +715,7 @@ nav a.active {
         bottom: 0;
         text-align: center;
         padding: 0;
-        opacity: .8;
+        opacity: .9;
     }
 
     .cs-style-1 figcaption h3{
