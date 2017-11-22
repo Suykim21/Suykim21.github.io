@@ -382,13 +382,6 @@ nav a.active {
     margin-bottom: 0.8em;
 }
 
-/* .skills_grid ul {
-    margin: 2em 0;
-    font-size: 1.5em;
-    line-height: 1.8em;
-} */
-
-
 .skills_grid img {
     width: 30%;
     height: auto;
@@ -602,7 +595,7 @@ nav a.active {
 /* ------------------------- */
 
 .contact-hero {
-    background-color: #E71D36;
+    background-color: #E6324B;
     padding: 5em 0;
     text-align: center;
     /* height: 100vh; */
@@ -610,7 +603,7 @@ nav a.active {
 
 .contact-hero h1 {
     font-size: 3em;
-    color: black;
+    color: #fff;
     text-align: center;
     /* margin-bottom: 1.5em; */
 }
@@ -630,7 +623,18 @@ nav a.active {
 
 .contact-hero li {
     display: inline-block;
-    margin: 3em 2em;
+    margin: 3em 0;
+}
+
+.images {
+    width:50px;
+    padding: 0;
+    margin:0;
+}
+
+#cv {
+    background:white;
+    border-radius:50%;
 }
 
 .contact-hero a {
