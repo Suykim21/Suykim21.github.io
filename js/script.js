@@ -25,6 +25,18 @@
 //   });
 
 
+
+document.querySelector('.link').addEventListener('click', onClick);
+document.querySelector('.link1').addEventListener('click', onClick);
+document.querySelector('.link2').addEventListener('click', onClick);
+document.querySelector('.link3').addEventListener('click', onClick);
+document.querySelector('.link4').addEventListener('click', onClick);
+
+function onClick(e){
+    document.getElementById("menu-toggle").checked = false;
+}
+
+
 $("document").ready(function(e){
     $("nav ul li a").click(function(e){
         $("nav ul li a").removeClass('active');
