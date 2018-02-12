@@ -40,6 +40,7 @@ function onClick(e){
 $("document").ready(function(e){
     $("nav ul li a").click(function(e){
         $("nav ul li a").removeClass('active');
+        console.log(this);
         $(this).addClass('active');
     });
 });
